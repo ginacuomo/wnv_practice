@@ -1,4 +1,4 @@
-# 2.edit_seq_names.R
+# 02.edit_seq_names.R
 
 # Author: Gina Cuomo-Dannenburg
 # Date: 14/01/2026
