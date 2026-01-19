@@ -1,7 +1,7 @@
 # 03a.remove_sequences.R
 
 # Author: Gina Cuomo-Dannenburg
-# Date: 14/01/2026
+# Date: 19/01/2026
 # 
 # Purpose: Remove problematic sequences from TempEst analysis
 # Input: fasta file that has been aligned using mafft and manual alignment with filters for completeness.
