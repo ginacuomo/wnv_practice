@@ -1,0 +1,228 @@
+IQ-TREE 3.0.1 built Jun 30 2025
+
+Input file name: 02_france_wnv_aligned_renamed.fasta
+Type of analysis: tree reconstruction
+Random seed number: 254756
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 62 sequences with 10302 nucleotide sites
+Number of constant sites: 7976 (= 77.4219% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 7976 (= 77.4219% of all sites)
+Number of parsimony informative sites: 2205
+Number of distinct site patterns: 544
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 2.5131
+  A-G: 6.9543
+  A-T: 1.7801
+  C-G: 0.2833
+  C-T: 23.4690
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2724
+  pi(C) = 0.2275
+  pi(G) = 0.2828
+  pi(T) = 0.2173
+
+Rate matrix Q:
+
+  A   -0.7181    0.1403    0.4828   0.09497
+  C     0.168     -1.44   0.01967     1.252
+  G     0.465   0.01582   -0.5342   0.05335
+  T     0.119     1.311   0.06943    -1.499
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.1615
+
+ Category  Relative_rate  Proportion
+  1         0.0001024      0.25
+  2         0.01492        0.25
+  3         0.2762         0.25
+  4         3.709          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -24897.4284 (s.e. 193.2688)
+Unconstrained log-likelihood (without tree): -38652.0260
+Number of free parameters (#branches + #model parameters): 124
+Akaike information criterion (AIC) score: 50042.8567
+Corrected Akaike information criterion (AICc) score: 50045.9028
+Bayesian information criterion (BIC) score: 50940.6283
+
+Total tree length (sum of branch lengths): 0.8574
+Sum of internal branch lengths: 0.8258 (96.3207% of tree length)
+
+WARNING: 28 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'OZ372082_2025-09-12' is drawn at root
+
++**OZ372082_2025-09-12
+|
+|              +**OZ372083_2025-07-23
+|           +**|
+|           |  +**OZ372084_2025-07-23
+|        +**|
+|        |  |  +--OZ313212_2025-08-04
+|        |  +--|
+|        |     +--OZ313271_2025-07-26
+|     +--|
+|     |  |        +**OZ372085_2025-08-18
+|     |  |     +--|
+|     |  |     |  |                                                          +--MT863559_2015-10-03
+|     |  |     |  +----------------------------------------------------------|
+|     |  |     |                                                             |  +**DQ786572_2004-10-18
+|     |  |     |                                                             +--|
+|     |  |     |                                                                +**DQ786573_2004-10-21
+|     |  |  +--|
+|     |  |  |  +**OZ372089_2025-08-18
+|     |  +**|
+|     |     |                                      +--OZ372090_2025-10-04
+|     |     |                                   +**|
+|     |     |                                   |  +--PV054418_2024-09-17
+|     |     |                                +**|
+|     |     |                                |  |  +**OZ261143_2024-08-23
+|     |     |                                |  +**|
+|     |     |                                |     +**OZ261147_2024-08-23
+|     |     |                             +**|
+|     |     |                             |  |  +**OZ261144_2024-08-02
+|     |     |                             |  +**|
+|     |     |                             |     +**OZ261148_2024-08-02
+|     |     |                          +--|
+|     |     |                          |  |  +**OZ313201_2025-08-06
+|     |     |                          |  +--|
+|     |     |                          |     +**OZ313260_2025-07-18
+|     |     |                       +--|
+|     |     |                       |  |        +--PV054409_2023-09-15
+|     |     |                       |  |     +--|
+|     |     |                       |  |     |  +--OZ261140_2022-09-30
+|     |     |                       |  |  +**|
+|     |     |                       |  |  |  +--MT863561_2018-10-06
+|     |     |                       |  +--|
+|     |     |                       |     +--MT863560_2018-09-08
+|     |     |                    +--|
+|     |     |                    |  +--PV246182_2023-09-23
+|     |     |                 +--|
+|     |     |                 |  +--PV246186_2023-08-11
+|     |     |              +**|
+|     |     |              |  +--PV054415_2023-08-27
+|     |     |           +**|
+|     |     |           |  |  +--PV246185_2023-08-14
+|     |     |           |  +**|
+|     |     |           |     |     +**PP482818_2023-08-03
+|     |     |           |     |  +**|
+|     |     |           |     |  |  +**PP482819_2023-08-03
+|     |     |           |     +--|
+|     |     |           |        +--PP482820_2023-08-03
+|     |     |        +**|
+|     |     |        |  |     +--PV246187_2023-07-03
+|     |     |        |  |  +**|
+|     |     |        |  |  |  |  +**PV054410_2023-07-27
+|     |     |        |  |  |  +**|
+|     |     |        |  |  |     +**PV054411_2023-07-27
+|     |     |        |  +**|
+|     |     |        |     |     +**PP482821_2023-07-25
+|     |     |        |     |  +--|
+|     |     |        |     |  |  +--PP482822_2023-07-25
+|     |     |        |     +--|
+|     |     |        |        |     +--PP482823_2023-07-25
+|     |     |        |        |  +--|
+|     |     |        |        |  |  +--PP482824_2023-07-25
+|     |     |        |        +**|
+|     |     |        |           |  +**PP482825_2023-08-24
+|     |     |        |           +--|
+|     |     |        |              +--PP482826_2023-08-24
+|     |     |     +**|
+|     |     |     |  |     +--OZ313202_2023-09-12
+|     |     |     |  |  +**|
+|     |     |     |  |  |  |     +**PV054416_2024-09-12
+|     |     |     |  |  |  |  +--|
+|     |     |     |  |  |  |  |  +**PV054417_2024-09-12
+|     |     |     |  |  |  +--|
+|     |     |     |  |  |     +--PV054419_2024-10-04
+|     |     |     |  +**|
+|     |     |     |     |           +--PV054420_2024-09-11
+|     |     |     |     |        +--|
+|     |     |     |     |        |  |  +**OZ261142_2024-08-28
+|     |     |     |     |        |  +--|
+|     |     |     |     |        |     +**OZ261145_2024-08-28
+|     |     |     |     |     +--|
+|     |     |     |     |     |  +--OZ263593_2024-09-17
+|     |     |     |     |  +**|
+|     |     |     |     |  |  |  +--OZ263594_2024-09-13
+|     |     |     |     |  |  +--|
+|     |     |     |     |  |     |     +**OZ263595_2024-08-16
+|     |     |     |     |  |     |  +**|
+|     |     |     |     |  |     |  |  +**OZ261146_2024-08-29
+|     |     |     |     |  |     +**|
+|     |     |     |     |  |        +**OZ263596_2024-08-30
+|     |     |     |     +--|
+|     |     |     |        |  +--OZ261141_2024-09-03
+|     |     |     |        +--|
+|     |     |     |           +--OZ261149_2024-08-21
+|     |     |  +**|
+|     |     |  |  |  +--PV246180_2023-07-17
+|     |     |  |  +**|
+|     |     |  |     |  +**PV246183_2023-10-03
+|     |     |  |     +--|
+|     |     |  |        +**PV246184_2023-10-03
+|     |     +--|
+|     |        +--PV246181_2023-09-27
+|  +**|
+|  |  +**OZ372087_2025-09-12
++**|
+|  +--OZ372086_2025-09-12
+|
++**OZ372088_2025-09-12
+
+Tree in newick format:
+
+(OZ372082_2025-09-12:0.0000953279,(((((OZ372083_2025-07-23:0.0000010000,OZ372084_2025-07-23:0.0000010000):0.0000955696,(OZ313212_2025-08-04:0.0002858415,OZ313271_2025-07-26:0.0004379198):0.0004768960):0.0000021103,(((OZ372085_2025-08-18:0.0000025334,(MT863559_2015-10-03:0.0124462639,(DQ786572_2004-10-18:0.0000010000,DQ786573_2004-10-21:0.0000022214):0.0029552304):0.8118992837):0.0001946446,OZ372089_2025-08-18:0.0000010000):0.0002872373,(((((((((((((OZ372090_2025-10-04:0.0006683755,PV054418_2024-09-17:0.0004773677):0.0000010000,(OZ261143_2024-08-23:0.0000010000,OZ261147_2024-08-23:0.0000010000):0.0000010000):0.0000010000,(OZ261144_2024-08-02:0.0000010000,OZ261148_2024-08-02:0.0000010000):0.0000957961):0.0000920835,(OZ313201_2025-08-06:0.0000010000,OZ313260_2025-07-18:0.0000010000):0.0010549519):0.0027126468,(((PV054409_2023-09-15:0.0009593889,OZ261140_2022-09-30:0.0007666937):0.0002848958,MT863561_2018-10-06:0.0009558191):0.0000021093,MT863560_2018-09-08:0.0004760282):0.0002742789):0.0043769912,PV246182_2023-09-23:0.0004828018):0.0001856911,PV246186_2023-08-11:0.0008600655):0.0001905732,PV054415_2023-08-27:0.0004773484):0.0000022880,(PV246185_2023-08-14:0.0003819020,((PP482818_2023-08-03:0.0000010000,PP482819_2023-08-03:0.0000010000):0.0000010000,PP482820_2023-08-03:0.0003816464):0.0005723664):0.0000010000):0.0000010000,((PV246187_2023-07-03:0.0002868347,(PV054410_2023-07-27:0.0000010000,PV054411_2023-07-27:0.0000010000):0.0000949200):0.0000953947,((PP482821_2023-07-25:0.0000024856,PP482822_2023-07-25:0.0000975770):0.0001903693,((PP482823_2023-07-25:0.0001002198,PP482824_2023-07-25:0.0006823739):0.0002870187,(PP482825_2023-08-24:0.0000010000,PP482826_2023-08-24:0.0001310885):0.0006369143):0.0000023965):0.0001903427):0.0000023591):0.0000010000,((OZ313202_2023-09-12:0.0008586371,((PV054416_2024-09-12:0.0000952386,PV054417_2024-09-12:0.0000953065):0.0001915228,PV054419_2024-10-04:0.0003819987):0.0004775825):0.0000025280,((((PV054420_2024-09-11:0.0004771758,(OZ261142_2024-08-28:0.0000010000,OZ261145_2024-08-28:0.0000010000):0.0002865967):0.0001324703,OZ263593_2024-09-17:0.0004200275):0.0005357225,(OZ263594_2024-09-13:0.0004773311,((OZ263595_2024-08-16:0.0000956138,OZ261146_2024-08-29:0.0000957199):0.0000010000,OZ263596_2024-08-30:0.0000010000):0.0000020955):0.0002866013):0.0000021415,(OZ261141_2024-09-03:0.0002864355,OZ261149_2024-08-21:0.0001908934):0.0001909324):0.0001911491):0.0000010000):0.0000010000,(PV246180_2023-07-17:0.0009548130,(PV246183_2023-10-03:0.0000010000,PV246184_2023-10-03:0.0000010000):0.0003818429):0.0000010000):0.0000010000,PV246181_2023-09-27:0.0004773069):0.0002852538):0.0000959157):0.0003806635,OZ372087_2025-09-12:0.0000022127):0.0000953494,OZ372086_2025-09-12:0.0001907408):0.0000010000,OZ372088_2025-09-12:0.0000010000);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t 02_france_wnv_aligned_renamed.fasta.treefile -m "GTR{2.51307,6.95431,1.78013,0.283297,23.469}+F{0.272377,0.227495,0.282808,0.21732}+G4{0.161509}" --length 10302
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s 02_france_wnv_aligned_renamed.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s 02_france_wnv_aligned_renamed.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Jan 16 16:36:27 2026
+Total CPU time used: 10.6662 seconds (0h:0m:10s)
+Total wall-clock time used: 10.6994 seconds (0h:0m:10s)
+

@@ -1,0 +1,6 @@
+# editing of WNV sequences for test 
+4 sequences removed due to the incomplete sequences -> these 4 are noted in metadata.csv 
+All sampling dates are available for the remaining sequences so use these in the tree
+When I originally ran the analysis through iqtree the dates were lost in the names of the sequences due to spaces.
+I have fixed these in the 01 script which generated france_wnf_aligned_renamed.fasta which 
+I then used to run the analysis through iqtree and look at in TempEst. 
