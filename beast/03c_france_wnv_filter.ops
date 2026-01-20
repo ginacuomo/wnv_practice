@@ -1,0 +1,13 @@
+
+Operator analysis
+Operator                                          Tuning   Count      Time     Time/Op  Pr(accept) Smoothed_Pr(accept)
+scale(kappa)                                      0.283   129774     15449    0.12     0.2333      0.24        
+deltaExchange(frequencies)                        0.018   129127     15246    0.12     0.2345      0.2         
+scale(alpha)                                      0.181   128976     15411    0.12     0.233       0.18        
+scale(clock.rate)                                 0.717   387315     45461    0.12     0.234       0.22        
+up:nodeHeights(treeModel) down:clock.rate         0.983   387923     34265    0.09     0.2341      0.2         
+subtreeLeap(treeModel)                            0.743   7236801    400660   0.06     0.2338      0.25        
+subtreeJump(treeModel)                                    724539     44070    0.06     0.0658      0.08        
+scale(exponential.popSize)                        0.37    388496     9040     0.02     0.2336      0.24        
+randomWalkOperator(exponential.growthRate)        0.28    387049     9632     0.02     0.2341      0.22        
+
